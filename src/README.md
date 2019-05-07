@@ -35,3 +35,7 @@ The script in `train_DBM.py` will train a corresponding DBM and write it as a pi
 ```shell
 $ python3 train_DBM.py --epochs 2 --dimensions 784,500,500,1000
 ```
+
+Below is a sample generative output of 100 MNIST test images:
+
+<img src="/img/sample.png" width="800">
