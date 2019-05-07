@@ -44,11 +44,11 @@ if __name__ == "__main__":
     parser.add_argument("--learning-rate", type=float, default=0.01,
                         help="learning rate for stacked RBMs, defaults to 0.01")
     parser.add_argument("--k1", type=int, default=1,
-                        help="number of gibbs-sampling steps pre-PCD-k algorithm, defaults to 1")
+                        help="number of Gibbs-sampling steps pre-PCD-k algorithm, defaults to 1")
     parser.add_argument("--k2", type=int, default=5,
-                        help="number of gibbs-sampling steps during PCD-k algorithm, defaults to 5")
+                        help="number of Gibbs-sampling steps during PCD-k algorithm, defaults to 5")
     parser.add_argument("--k3", type=int, default=5,
-                        help="number of gibbs-sampling steps before transferring samples to next model, defaults to 5")
+                        help="number of Gibbs-sampling steps before transferring samples to next model, defaults to 5")
     parser.add_argument("--epochs", type=int, default=1,
                         help="number of overall training data passes for each RBM, defaults to 1")
     parser.add_argument("--batch-size", type=int, default=5,

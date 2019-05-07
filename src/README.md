@@ -13,11 +13,11 @@ optional arguments:
   -h, --help            show this help message and exit
   --learning-rate LEARNING_RATE
                         learning rate for stacked RBMs, defaults to 0.01
-  --k1 K1               number of gibbs-sampling steps pre-PCD-k algorithm,
+  --k1 K1               number of Gibbs-sampling steps pre-PCD-k algorithm,
                         defaults to 1
-  --k2 K2               number of gibbs-sampling steps during PCD-k algorithm,
+  --k2 K2               number of Gibbs-sampling steps during PCD-k algorithm,
                         defaults to 5
-  --k3 K3               number of gibbs-sampling steps before transferring
+  --k3 K3               number of Gibbs-sampling steps before transferring
                         samples to next model, defaults to 5
   --epochs EPOCHS       number of overall training data passes for each RBM,
                         defaults to 1
