@@ -8,6 +8,6 @@ $ ./init.sh
 
 Information regarding execution of python scripts can be found in the [readme](/src/README.md) in the `/src` directory.
 
-## Author
+### Author
 
 Atreya Shankar, Cognitive Systems 2018

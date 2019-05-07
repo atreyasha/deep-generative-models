@@ -54,7 +54,9 @@ if __name__ == "__main__":
     parser.add_argument("--batch-size", type=int, default=5,
                         help="size of training data batches, defaults to 5")
     requiredNamed = parser.add_argument_group('required named arguments')
-    requiredNamed.add_argument('-d', '--dimensions', type=str, help="consecutive enumeration of visible and hidden layers separated by a comma character, eg. 784,500,500,1000", required=True)
+    requiredNamed.add_argument('-d', '--dimensions', type=str, 
+                               help="consecutive enumeration of visible and hidden layers separated by a comma character, eg. 784,500,500,1000", 
+                               required=True)
     args = parser.parse_args()
     # train DBM based on parameters
     trainDBM(args.learning_rate,args.k1,args.k2,args.k3,args.epochs,args.batch_size,args.dimensions)
