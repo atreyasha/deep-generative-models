@@ -14,7 +14,7 @@ This repository's source code was tested with Python versions `3.7.*`.
     $ pip install -r requirements.txt
     ```
 
-2. Optional: To develop this repository, it is recommended to initialize a pre-commit hook for automatic updates of python dependencies:
+2. **Optional:** To develop this repository, it is recommended to initialize a pre-commit hook for automatic updates of python dependencies:
 
     ```shell
     $ ./init.sh
