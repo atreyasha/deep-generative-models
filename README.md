@@ -2,7 +2,7 @@
 
 This repository contains TensorFlow 2.0 python source-code for deep generative models. This repository prioritizes using low-level tensorflow implementations where possible. The intended purpose is to allow for a more in-depth understanding of corresponding algorithms.
 
-Note: Source code in this repository was only tested on the CPU. Therefore extending usage to GPU(s) might result in issues.
+**Note:** Source code in this repository was only tested on the CPU.
 
 ### Dependencies
 
