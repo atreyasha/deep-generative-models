@@ -23,7 +23,3 @@ This repository's source code was tested with Python versions `3.7.*`.
 ### Workflow
 
 Information regarding execution of python scripts can be found in the [readme](/src/README.md) in the `/src` directory.
-
-### Author
-
-Atreya Shankar, Cognitive Systems 2018
