@@ -28,9 +28,9 @@ Further information on training a CVAE can be found in this [guide](/src/docs/CV
 
 Further information on training a CGAN can be found in this [guide](/src/docs/CGAN.md).
 
-### Literature
+### Reference
 
-Algorithms in this source-code for DBM/DBN/RBMs were adapted from Salakhutdinov and Hinton (2009) with the following bibtex citation:
+Algorithms in this source-code for DBM/DBN/RBMs were adapted from Salakhutdinov and Hinton (2009) with the following bibtex entry:
 
 ```
 @inproceedings{salakhutdinov2009deep,
