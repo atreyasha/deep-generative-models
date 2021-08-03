@@ -40,8 +40,6 @@ This script currently supports TensorFlow eager execution for easy debugging. Fo
 $ python3 train_CGAN.py --epochs 100 --latent-dimensions 2
 ```
 
-Pre-trained CGAN weights for MNIST and fashion-MNIST can be found in the `/src/pickles` directory.
-
 **Note:** Due to a bug, loading these weights back into a tf.keras model results in warnings for unresolved objects. The models can still be used and the bug will be fixed in a later commit.
 
 ### CGAN Samples

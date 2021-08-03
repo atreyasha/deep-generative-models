@@ -34,8 +34,6 @@ This script currently supports TensorFlow eager execution for easy debugging. Fo
 $ python3 train_DBM.py --epochs 2 --dimensions 784,500,784
 ```
 
-Pre-trained DBMs are not offered in this repository due to large memory requirements.
-
 ### Mean-Field Sample Visualizations
 
 Using a pre-trained DBM, we generated 100 random (mean-field) samples of MNIST images:

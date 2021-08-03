@@ -34,8 +34,6 @@ This script currently supports TensorFlow eager execution for easy debugging. Fo
 $ python3 train_DBN.py --epochs 2 --dimensions 784,500,784
 ```
 
-Pre-trained DBNs for MNIST, fashion-MNIST and LFW cropped faces have been saved in the `/src/pickles` directory.
-
 ### Mean-Field Sample Visualizations
 
 Using a pre-trained DBN, we generated 100 random (mean-field) samples of MNIST images:

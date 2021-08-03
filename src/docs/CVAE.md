@@ -35,8 +35,6 @@ This script currently supports TensorFlow eager execution for easy debugging. Fo
 $ python3 train_CVAE.py --epochs 10 --latent-dimensions 2
 ```
 
-Pre-trained CVAE weights for MNIST, fashion-MNIST and LFW cropped greyscale faces can be found in the `/src/pickles` directory.
-
 ### CVAE Latent Manifold Visualization
 
 Using a pre-trained CVAE, we generated 1600 MNIST images derived from the CVAE latent manifold:
