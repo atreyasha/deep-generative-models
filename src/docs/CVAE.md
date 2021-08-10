@@ -1,6 +1,6 @@
 ## Convolutional Variational Auto-Encoder (CVAE)
 
-Here we have summarized documentation regarding the `train_CVAE.py` function. Note that this script has been adapted and modified from the TensorFlow2 tutorial [here](https://www.tensorflow.org/alpha/tutorials/generative/cvae)
+Here we have summarized documentation regarding the `train_CVAE.py` function. Note that this script has been adapted and modified from the TensorFlow2 tutorial [here](https://www.tensorflow.org/alpha/tutorials/generative/cvae), which is distributed under the Apache 2.0 [License](../../THIRD_PARTY_NOTICES.txt).
 
 ```
 usage: train_CVAE.py [-h] [--data DATA] [--learning-rate LEARNING_RATE]
